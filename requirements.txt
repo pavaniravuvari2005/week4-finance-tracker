@@ -1,0 +1,15 @@
+# Personal Finance Tracker - Python Requirements
+
+# No external dependencies required for basic functionality
+# These are optional for enhanced features:
+
+# For enhanced visualizations (optional):
+# matplotlib>=3.5.0
+# seaborn>=0.11.2
+
+# For data analysis (optional):
+# pandas>=1.3.0
+# numpy>=1.21.0
+
+# For web interface (optional future feature):
+# flask>=2.0.0
