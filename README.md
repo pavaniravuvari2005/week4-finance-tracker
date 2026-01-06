@@ -5,25 +5,45 @@ A comprehensive personal finance tracking application that helps users manage th
 # Project Structure
 
 week4-finance-tracker/
+
 ├── finance_tracker/          # Main package
+
 │   ├── __init__.py
+
 │   ├── main.py              # Main application with menu system
+
 │   ├── expense.py           # Expense data model
+
 │   ├── expense_manager.py   # Expense management logic
+
 │   ├── file_handler.py      # File operations (save/load/backup)
+
 │   ├── reports.py           # Report generation
+
 │   └── utils.py             # Utility functions
+
 ├── data/                    # Data storage
+
 │   ├── expenses.json        # Main data file
+
 │   ├── backup/             # Automatic backups
+
 │   └── exports/            # CSV exports
+
 ├── tests/                   # Unit tests
+
 │   ├── test_expense.py
+
 │   ├── test_file_handler.py
+
 │   └── test_reports.py
+
 ├── requirements.txt         # Python dependencies
+
 ├── README.md               # This file
+
 ├── run.py                  # Entry point script
+
 └── .gitignore             # Git ignore file
 
 ## Features
